@@ -1,0 +1,13 @@
+C:\Users\User\workspace\Garys-Garage\bin\Debug\netcoreapp3.1\Garys-Garage.exe
+C:\Users\User\workspace\Garys-Garage\bin\Debug\netcoreapp3.1\Garys-Garage.deps.json
+C:\Users\User\workspace\Garys-Garage\bin\Debug\netcoreapp3.1\Garys-Garage.runtimeconfig.json
+C:\Users\User\workspace\Garys-Garage\bin\Debug\netcoreapp3.1\Garys-Garage.runtimeconfig.dev.json
+C:\Users\User\workspace\Garys-Garage\bin\Debug\netcoreapp3.1\Garys-Garage.dll
+C:\Users\User\workspace\Garys-Garage\bin\Debug\netcoreapp3.1\Garys-Garage.pdb
+C:\Users\User\workspace\Garys-Garage\obj\Debug\netcoreapp3.1\Garys-Garage.csprojAssemblyReference.cache
+C:\Users\User\workspace\Garys-Garage\obj\Debug\netcoreapp3.1\Garys-Garage.AssemblyInfoInputs.cache
+C:\Users\User\workspace\Garys-Garage\obj\Debug\netcoreapp3.1\Garys-Garage.AssemblyInfo.cs
+C:\Users\User\workspace\Garys-Garage\obj\Debug\netcoreapp3.1\Garys-Garage.csproj.CoreCompileInputs.cache
+C:\Users\User\workspace\Garys-Garage\obj\Debug\netcoreapp3.1\Garys-Garage.dll
+C:\Users\User\workspace\Garys-Garage\obj\Debug\netcoreapp3.1\Garys-Garage.pdb
+C:\Users\User\workspace\Garys-Garage\obj\Debug\netcoreapp3.1\Garys-Garage.genruntimeconfig.cache
