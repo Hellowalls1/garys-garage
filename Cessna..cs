@@ -11,7 +11,7 @@ namespace Garys_Garage {
 
         //ovverides the Drive method that is inherited from Vehicle
         public override void Drive () {
-            Console.WriteLine ("Zoooooom!");
+            Console.WriteLine ($"The {MainColor} Cessna flew by you! Zoooooom!");
         }
     }
 

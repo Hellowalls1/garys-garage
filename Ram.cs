@@ -1,3 +1,5 @@
+using System;
+
 namespace Garys_Garage {
 
     public class Ram : Vehicle // Gas powered truck
@@ -5,6 +7,10 @@ namespace Garys_Garage {
         public double FuelCapacity { get; set; }
         public void RefuelTank () {
             // method definition omitted
+        }
+
+        public override void Drive () {
+            Console.WriteLine ($"The {MainColor} Ram drives by. Roooom!");
         }
     }
 }

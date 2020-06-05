@@ -4,9 +4,6 @@ namespace Garys_Garage {
     class Program {
         static void Main (string[] args) {
 
-            Zero fxs = new Zero ();
-            Tesla x26 = new Tesla ();
-
             Cessna plane = new Cessna () {
                 MainColor = "blue",
                 MaximumOccupancy = "6",
@@ -17,14 +14,29 @@ namespace Garys_Garage {
                 MainColor = "Red",
                 MaximumOccupancy = "20",
                 FuelCapacity = 40.5,
+
+            };
+            Zero scooter = new Zero () {
+                MainColor = "Red",
+                MaximumOccupancy = "20",
+                BatteryKWh = 40.5
+
+            };
+            Tesla car = new Tesla () {
+                MainColor = "Red",
+                MaximumOccupancy = "20",
+                BatteryKWh = 2.3
             };
 
             //inherits from the drive method from baseclass vehicle
             truck.Drive ();
-            fxs.Drive ();
-            x26.Drive ();
+            car.Stop ();
             plane.Drive ();
-            truck.Drive ();
+            car.Stop ();
+            scooter.Drive ();
+            car.Stop ();
+            car.Drive ();
+            car.Stop ();
         }
     }
 }

@@ -1,3 +1,5 @@
+using System;
+
 namespace Garys_Garage {
     public class Tesla : Vehicle // Electric car
     {
@@ -5,6 +7,9 @@ namespace Garys_Garage {
 
         public void ChargeBattery () {
             // Console.WriteLine ($"Your Tesla now charged to {this.BatteryKWh}KWh. ")
+        }
+        public override void Drive () {
+            Console.WriteLine ($"The {MainColor} Tesla moves along. WEEEEEEEE!");
         }
     }
 }

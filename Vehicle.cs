@@ -7,7 +7,16 @@ namespace Garys_Garage {
 
         //virtual void means inherited methods can be overidden by children 
         public virtual void Drive () {
+
             Console.WriteLine ("Vroom!");
+        }
+
+        public virtual void Stop () {
+            Console.WriteLine ("The vehicle gently rolls to a stop.");
+        }
+
+        public virtual void Turn (string, Direction) {
+
         }
     }
 
