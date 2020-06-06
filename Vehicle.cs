@@ -2,6 +2,10 @@ using System;
 
 namespace Garys_Garage {
     public class Vehicle {
+
+        //these are all shared by the individual classes so they are located here and called after the individual classname with (: Vehicle)
+        //are can be called into interpolated strings
+        //are utilized in instances of objects
         public string MainColor { get; set; }
         public string MaximumOccupancy { get; set; }
 
@@ -15,7 +19,9 @@ namespace Garys_Garage {
             Console.WriteLine ("The vehicle gently rolls to a stop.");
         }
 
-        public virtual void Turn (string, Direction) {
+        //this method is being called on program. It needs to be passed an argument in quotations (string)
+        public virtual void Turn (string direction) {
+            Console.WriteLine ($"The vehicle carefully turns {direction}");
 
         }
     }
